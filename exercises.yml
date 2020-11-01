@@ -1,0 +1,12 @@
+name: exercise-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+    - mip
+    - xlrd
